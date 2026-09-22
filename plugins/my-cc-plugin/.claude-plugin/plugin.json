@@ -1,0 +1,8 @@
+{
+  "name": "my-cc-plugin",
+  "version": "1.0.0",
+  "description": "My set of useful tools",
+  "author": {
+    "name": "Maxim Marchenko"
+  }
+}

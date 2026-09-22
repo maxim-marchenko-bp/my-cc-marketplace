@@ -1,0 +1,17 @@
+{
+  "name": "my-cc-marketplace",
+  "owner": {
+    "name": "Maxim Marchenko"
+  },
+  "plugins": [
+    {
+      "name": "my-cc-plugin",
+      "version": "1.0.0",
+      "description": "My set of useful tools",
+      "author": {
+        "name": "Maxim Marchenko"
+      },
+      "source": "./plugins/my-cc-plugin"
+    }
+  ]
+}
