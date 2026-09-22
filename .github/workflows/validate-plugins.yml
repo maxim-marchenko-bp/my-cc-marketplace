@@ -10,4 +10,4 @@ jobs:
       - uses: actions/checkout@v4
       - name: Validate marketplace.json
         run: |
-          node marketplace-checker.js
+          .github/workflows/marketplace-checker.js
