@@ -16,6 +16,7 @@ description: >
   trio. ADRs are no longer part of this skill — they belong to the later
   architecture stage. Bound to the SDLC ideation phase; writes an artifact
   into docs/features/.
+argument-hint: "<feature>"
 ---
 
 # Skill: interview (SDLC ideation phase — single entry-point)
