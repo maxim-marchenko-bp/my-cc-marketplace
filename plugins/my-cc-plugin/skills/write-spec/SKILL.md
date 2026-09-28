@@ -1,19 +1,19 @@
 ---
-name: write-prd
+name: write-spec
 model: opus
 effort: high
 agents: [critic]
 description: >
   Use to turn a raw feature idea into a reviewed PRD.md — a lightweight Socratic interview
   front (capture the idea, deep-dive the problem) merged with a full product spec (context,
-  goals, user stories, acceptance criteria, NFRs, KPIs). Triggers on "/sdlc-write-prd {slug}",
+  goals, user stories, acceptance criteria, NFRs, KPIs). Triggers on "/sdlc-write-spec {slug}",
   "write PRD for {slug}", "draft PRD for {slug}", "PRD for {slug}", "write spec for {slug}",
   "product requirements for {slug}", "write a PRD {slug}", "describe the requirements", "capture the idea".
   Opens by setting the interview-depth dial (easy/medium/hard), drafts from templates/PRD-template.md,
   validates each acceptance criterion Socratically, runs a clean-context critic (sdlc:critic),
   then writes docs/features/{slug}/PRD.md. Hard refuse if idea-brief.md or CONTEXT.md missing.
 triggers:
-  - /sdlc-write-prd
+  - /sdlc-write-spec
   - "write PRD for"
   - "draft PRD for"
   - "PRD for"
@@ -22,7 +22,7 @@ triggers:
 stage: "03"
 ---
 
-# Skill: write-prd (SDLC stage 03 — PRD drafter)
+# Skill: write-spec (SDLC stage 03 — PRD drafter)
 
 Turns a one-line idea into a reviewed `PRD.md`: a lightweight interview captures and stress-tests the idea, then the skill drafts a product spec (context → goals → user stories → acceptance criteria → NFRs → KPIs), validates it Socratically, and runs a clean-context critic before writing. Less typing, more reviewing. This file is the spine; detail lives in `references/`.
 
