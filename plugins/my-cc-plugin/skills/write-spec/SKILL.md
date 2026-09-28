@@ -3,6 +3,7 @@ name: write-spec
 model: opus
 effort: high
 agents: [critic]
+argument-hint: <slug> [--reference <path>] [--depth easy|medium|hard]
 description: >
   Use to turn a raw feature idea into a reviewed PRD.md — a lightweight Socratic interview
   front (capture the idea, deep-dive the problem) merged with a full product spec (context,
